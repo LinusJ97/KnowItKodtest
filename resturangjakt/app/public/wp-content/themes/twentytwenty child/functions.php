@@ -1,16 +1,11 @@
 <?php
 
 
-add_action('add_meta_boxes', 'change_meta_box_titles');
-function change_meta_box_titles() {
+function change_discussion_box() {
     global $wp_meta_boxes;
-    $wp_meta_boxes['resturang']['normal']['core']['commentstatusdiv']['title'] = 'Omröstning';
-}
-function remove_trackbacks_pingbacks ($post_type, $post) {
-    global $wp_meta_boxes, $current_screen;
     # Remove "ping_status" from `commentstatusdiv`:
-    $wp_meta_boxes[$current_screen->id]['normal']['core']['commentstatusdiv']['callback'] = function($post) {
-
+    $wp_meta_boxes['resturang']['normal']['core']['commentstatusdiv']['title'] = 'Omröstning';
+    $wp_meta_boxes['resturang']['normal']['core']['commentstatusdiv']['callback'] = function($post) {
         ?>
             <input name="advanced_view" type="hidden" value="1">
             <p class="meta-options">
@@ -19,23 +14,16 @@ function remove_trackbacks_pingbacks ($post_type, $post) {
                 </label>
                 <?php do_action('post_comment_status_meta_box-options', $post); ?>
             </p>
-        <?php
+            <?php
     };
 }
+add_action('add_meta_boxes', 'change_discussion_box');
 
-function remove_meta_boxes() {
-    remove_meta_box('commentsdiv','resturang','normal');
-  }
-  add_action('admin_init','remove_meta_boxes');
-
+add_action( 'wp_before_admin_bar_render', 'remove_comments' );
 function remove_comments(){
     global $wp_admin_bar;
     $wp_admin_bar->remove_menu('comments');
 }
-add_action( 'wp_before_admin_bar_render', 'remove_comments' );
-
-add_action('add_meta_boxes', 'remove_trackbacks_pingbacks', 10, 2);
-
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
