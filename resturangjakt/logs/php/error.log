@@ -1,0 +1,188 @@
+[17-Feb-2020 12:55:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Linus/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (%1 is not a valid Win32 application.), C:/Users/Linus/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Feb-2020 12:56:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Linus/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (%1 is not a valid Win32 application.), C:/Users/Linus/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Feb-2020 23:38:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Linus/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (%1 is not a valid Win32 application.), C:/Users/Linus/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[18-Feb-2020 11:23:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty\index.php:24
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty\index.php on line 24
+[18-Feb-2020 11:27:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty\index.php on line 70
+[18-Feb-2020 11:28:10 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty\index.php on line 70
+[18-Feb-2020 11:28:11 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty\index.php on line 70
+[18-Feb-2020 12:16:47 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\templates\start-template.php on line 19
+[18-Feb-2020 12:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\templates\start-template.php:27
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\templates\start-template.php on line 27
+[18-Feb-2020 18:43:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_the_posts_navigation() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\templates\start-template.php:63
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\templates\start-template.php on line 63
+[18-Feb-2020 18:43:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_the_posts_navigation() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\templates\start-template.php:63
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\templates\start-template.php on line 63
+[18-Feb-2020 19:07:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\index.php:14
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\index.php on line 14
+[18-Feb-2020 19:08:18 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\index.php:14
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\index.php on line 14
+[18-Feb-2020 19:41:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 34
+[18-Feb-2020 19:46:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php:19
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 19
+[18-Feb-2020 20:12:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php:20
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 20
+[18-Feb-2020 20:12:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function var_sump() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php:21
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 21
+[18-Feb-2020 20:12:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function var_sump() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php:20
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 20
+[18-Feb-2020 20:19:08 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 22
+[18-Feb-2020 20:19:32 UTC] PHP Parse error:  syntax error, unexpected '$maptype' (T_VARIABLE) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 20
+[18-Feb-2020 20:21:14 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 43
+[18-Feb-2020 20:23:31 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 22
+[18-Feb-2020 20:27:49 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 30
+[18-Feb-2020 21:55:08 UTC] PHP Parse error:  syntax error, unexpected ']' in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 21:55:25 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 14
+[18-Feb-2020 21:55:33 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Comment as array in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php:12
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(724): require()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(671): load_template('C:\\Users\\Linus\\...', false)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php(50): get_template_part('template-parts/...')
+#4 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\Linus\\...')
+#5 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#6 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17):  in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 21:56:04 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Comment as array in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php:12
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(724): require()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(671): load_template('C:\\Users\\Linus\\...', false)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php(50): get_template_part('template-parts/...')
+#4 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\Linus\\...')
+#5 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#6 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17):  in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 21:56:43 UTC] PHP Warning:  Use of undefined constant comment_content - assumed 'comment_content' (this will throw an Error in a future version of PHP) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 21:56:43 UTC] PHP Stack trace:
+[18-Feb-2020 21:56:43 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php:0
+[18-Feb-2020 21:56:43 UTC] PHP   2. require() C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php:17
+[18-Feb-2020 21:56:43 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php:19
+[18-Feb-2020 21:56:43 UTC] PHP   4. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php:98
+[18-Feb-2020 21:56:43 UTC] PHP   5. get_template_part() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php:50
+[18-Feb-2020 21:56:43 UTC] PHP   6. locate_template() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\general-template.php:168
+[18-Feb-2020 21:56:43 UTC] PHP   7. load_template() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php:671
+[18-Feb-2020 21:56:43 UTC] PHP   8. require() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php:724
+[18-Feb-2020 21:56:43 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Comment could not be converted to string in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php:12
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(724): require()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(671): load_template('C:\\Users\\Linus\\...', false)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php(50): get_template_part('template-parts/...')
+#4 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\Linus\\...')
+#5 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#6 C:\Users\Linus\Local Sites\resturangjakt\app\public\i in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 21:56:54 UTC] PHP Warning:  Use of undefined constant comment_content - assumed 'comment_content' (this will throw an Error in a future version of PHP) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 21:56:54 UTC] PHP Stack trace:
+[18-Feb-2020 21:56:54 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php:0
+[18-Feb-2020 21:56:54 UTC] PHP   2. require() C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php:17
+[18-Feb-2020 21:56:54 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php:19
+[18-Feb-2020 21:56:54 UTC] PHP   4. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php:98
+[18-Feb-2020 21:56:54 UTC] PHP   5. get_template_part() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php:50
+[18-Feb-2020 21:56:54 UTC] PHP   6. locate_template() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\general-template.php:168
+[18-Feb-2020 21:56:54 UTC] PHP   7. load_template() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php:671
+[18-Feb-2020 21:56:54 UTC] PHP   8. require() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php:724
+[18-Feb-2020 21:56:54 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Comment as array in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php:12
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(724): require()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(671): load_template('C:\\Users\\Linus\\...', false)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php(50): get_template_part('template-parts/...')
+#4 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\Linus\\...')
+#5 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#6 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17):  in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 21:56:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Comment as array in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php:12
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(724): require()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template.php(671): load_template('C:\\Users\\Linus\\...', false)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php(50): get_template_part('template-parts/...')
+#4 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\Linus\\...')
+#5 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#6 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17):  in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 12
+[18-Feb-2020 22:04:26 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 44
+[18-Feb-2020 22:12:14 UTC] PHP Parse error:  syntax error, unexpected ''"></i>'' (T_CONSTANT_ENCAPSED_STRING) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 42
+[19-Feb-2020 09:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function field() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php:61
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Linus\\...')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\index.php(17): require('C:\\Users\\Linus\\...')
+#3 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\single-resturang.php on line 61
+[19-Feb-2020 09:59:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'remove_comment_support' not found or invalid function name in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php on line 288
+[19-Feb-2020 09:59:44 UTC] PHP Stack trace:
+[19-Feb-2020 09:59:44 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:0
+[19-Feb-2020 09:59:44 UTC] PHP   2. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:12
+[19-Feb-2020 09:59:44 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin.php:34
+[19-Feb-2020 09:59:44 UTC] PHP   4. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-load.php:37
+[19-Feb-2020 09:59:44 UTC] PHP   5. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-config.php:77
+[19-Feb-2020 09:59:44 UTC] PHP   6. do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-settings.php:523
+[19-Feb-2020 09:59:44 UTC] PHP   7. WP_Hook->do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php:478
+[19-Feb-2020 09:59:44 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php:312
+[19-Feb-2020 09:59:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'remove_comment_support' not found or invalid function name in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php on line 288
+[19-Feb-2020 09:59:44 UTC] PHP Stack trace:
+[19-Feb-2020 09:59:44 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php:0
+[19-Feb-2020 09:59:44 UTC] PHP   2. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php:22
+[19-Feb-2020 09:59:44 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-load.php:37
+[19-Feb-2020 09:59:44 UTC] PHP   4. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-config.php:77
+[19-Feb-2020 09:59:44 UTC] PHP   5. do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-settings.php:523
+[19-Feb-2020 09:59:44 UTC] PHP   6. WP_Hook->do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php:478
+[19-Feb-2020 09:59:44 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php:312
+[19-Feb-2020 09:59:45 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'remove_comment_support' not found or invalid function name in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php on line 288
+[19-Feb-2020 09:59:45 UTC] PHP Stack trace:
+[19-Feb-2020 09:59:45 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php:0
+[19-Feb-2020 09:59:45 UTC] PHP   2. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php:22
+[19-Feb-2020 09:59:45 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-load.php:37
+[19-Feb-2020 09:59:45 UTC] PHP   4. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-config.php:77
+[19-Feb-2020 09:59:45 UTC] PHP   5. do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-settings.php:523
+[19-Feb-2020 09:59:45 UTC] PHP   6. WP_Hook->do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php:478
+[19-Feb-2020 09:59:45 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php:312
+[19-Feb-2020 12:07:59 UTC] PHP Parse error:  syntax error, unexpected '$rating' (T_VARIABLE) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 40
