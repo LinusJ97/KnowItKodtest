@@ -55,5 +55,8 @@
 		"lint:css": "wp-scripts lint-style 'style.css' 'assets/**/*.css'",
 		"lint:js": "wp-scripts lint-js 'assets/**/*.js'",
 		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	},
+	"dependencies": {
+		"serialize-javascript": "^3.0.0"
 	}
 }
