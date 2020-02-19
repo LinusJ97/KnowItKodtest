@@ -47,8 +47,8 @@ get_header();
                         print'<i style="color:rgba(99, 99, 99, 0.255);" class="fas fa-2x fa-star"></i>';
                     }
                     print"</p><hr>";
+                    print"<h5>Omrösning</h5>";
 
-                    print"<p>Har du en annan åsikt? Känn dig fri att lämna ditt egna betyg!</p>";
                     get_template_part( 'template-parts/rating' );
                     print"</div><p class='horisontalRule'><div class='right'>";
                     print"<h5>Adress</h5>";

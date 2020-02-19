@@ -7,6 +7,10 @@ $ammountOfComments = get_comments(array(
 $comments = get_comments(array(
     'post_id' => $post->ID,
 ));
+if(comments_open()){
+    print"<p>Har du en annan åsikt? Känn dig fri att lämna ditt egna betyg!</p>";
+
+
 $id = $post->ID;
 $ratingsTotal = 0;
 foreach ($comments as $comment) {
@@ -113,7 +117,10 @@ else{
     <p>Tack för ditt betyg!</p>
     <?php
 }
-
+}
+else{
+    print"<p>Omrösningen är tyvärr stängd för denna resturang!</p>";
+}
 
 
 

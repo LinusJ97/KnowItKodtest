@@ -1,13 +1,40 @@
 <?php
 
 
+add_action('add_meta_boxes', 'change_meta_box_titles');
+function change_meta_box_titles() {
+    global $wp_meta_boxes;
+    $wp_meta_boxes['resturang']['normal']['core']['commentstatusdiv']['title'] = 'Omröstning';
+}
+function remove_trackbacks_pingbacks ($post_type, $post) {
+    global $wp_meta_boxes, $current_screen;
+    # Remove "ping_status" from `commentstatusdiv`:
+    $wp_meta_boxes[$current_screen->id]['normal']['core']['commentstatusdiv']['callback'] = function($post) {
 
+        ?>
+            <input name="advanced_view" type="hidden" value="1">
+            <p class="meta-options">
+                <label for="comment_status" class="selectit">
+                    <input id="comment_status" name="comment_status" type="checkbox" value="open" <?php checked($post->comment_status, 'open'); ?>> Tillåt omrösning?
+                </label>
+                <?php do_action('post_comment_status_meta_box-options', $post); ?>
+            </p>
+        <?php
+    };
+}
 
+function remove_meta_boxes() {
+    remove_meta_box('commentsdiv','resturang','normal');
+  }
+  add_action('admin_init','remove_meta_boxes');
 
+function remove_comments(){
+    global $wp_admin_bar;
+    $wp_admin_bar->remove_menu('comments');
+}
+add_action( 'wp_before_admin_bar_render', 'remove_comments' );
 
-
-
-
+add_action('add_meta_boxes', 'remove_trackbacks_pingbacks', 10, 2);
 
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
@@ -62,7 +89,7 @@ function custom_post_type() {
       'label'               => __( 'Resturanger'),
       'description'         => __( 'Resturanger och deras ranking'),
       'labels'              => $labels,
-      'supports'            => array( 'title', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', 'tags', ),
+      'supports'            => array( 'title', 'thumbnail', 'comments', 'revisions', 'custom-fields', 'tags', ),
       'hierarchical'        => false,
       'public'              => true,
       'show_ui'             => true,

@@ -186,3 +186,119 @@ Stack trace:
 [19-Feb-2020 09:59:45 UTC] PHP   6. WP_Hook->do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php:478
 [19-Feb-2020 09:59:45 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php:312
 [19-Feb-2020 12:07:59 UTC] PHP Parse error:  syntax error, unexpected '$rating' (T_VARIABLE) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 40
+[19-Feb-2020 16:01:39 UTC] PHP Parse error:  syntax error, unexpected '$wp_meta_boxes' (T_VARIABLE) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 8
+[19-Feb-2020 16:01:40 UTC] PHP Parse error:  syntax error, unexpected '$wp_meta_boxes' (T_VARIABLE) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 8
+[19-Feb-2020 16:04:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:7) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php on line 9
+[19-Feb-2020 16:04:59 UTC] PHP Stack trace:
+[19-Feb-2020 16:04:59 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:0
+[19-Feb-2020 16:04:59 UTC] PHP   2. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:198
+[19-Feb-2020 16:04:59 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\edit-form-advanced.php:419
+[19-Feb-2020 16:04:59 UTC] PHP   4. header() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php:9
+[19-Feb-2020 16:05:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:8) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php on line 9
+[19-Feb-2020 16:05:32 UTC] PHP Stack trace:
+[19-Feb-2020 16:05:32 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:0
+[19-Feb-2020 16:05:32 UTC] PHP   2. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:198
+[19-Feb-2020 16:05:32 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\edit-form-advanced.php:419
+[19-Feb-2020 16:05:32 UTC] PHP   4. header() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php:9
+[19-Feb-2020 16:05:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:8) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php on line 9
+[19-Feb-2020 16:05:52 UTC] PHP Stack trace:
+[19-Feb-2020 16:05:52 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:0
+[19-Feb-2020 16:05:52 UTC] PHP   2. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:198
+[19-Feb-2020 16:05:52 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\edit-form-advanced.php:419
+[19-Feb-2020 16:05:52 UTC] PHP   4. header() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php:9
+[19-Feb-2020 16:07:07 UTC] PHP Warning:  Wrong parameter count for var_dump() in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 8
+[19-Feb-2020 16:07:07 UTC] PHP Stack trace:
+[19-Feb-2020 16:07:07 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:0
+[19-Feb-2020 16:07:07 UTC] PHP   2. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:198
+[19-Feb-2020 16:07:07 UTC] PHP   3. register_and_do_post_meta_boxes() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\edit-form-advanced.php:269
+[19-Feb-2020 16:07:07 UTC] PHP   4. do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\includes\meta-boxes.php:1549
+[19-Feb-2020 16:07:07 UTC] PHP   5. WP_Hook->do_action() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php:478
+[19-Feb-2020 16:07:07 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php:312
+[19-Feb-2020 16:07:07 UTC] PHP   7. change_meta_box_titles() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php:290
+[19-Feb-2020 16:07:07 UTC] PHP   8. var_dump() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:8
+[19-Feb-2020 16:08:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:8) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php on line 9
+[19-Feb-2020 16:08:08 UTC] PHP Stack trace:
+[19-Feb-2020 16:08:08 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:0
+[19-Feb-2020 16:08:08 UTC] PHP   2. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:198
+[19-Feb-2020 16:08:08 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\edit-form-advanced.php:419
+[19-Feb-2020 16:08:08 UTC] PHP   4. header() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php:9
+[19-Feb-2020 16:08:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:8) in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php on line 9
+[19-Feb-2020 16:08:31 UTC] PHP Stack trace:
+[19-Feb-2020 16:08:31 UTC] PHP   1. {main}() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:0
+[19-Feb-2020 16:08:31 UTC] PHP   2. include() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\post.php:198
+[19-Feb-2020 16:08:31 UTC] PHP   3. require_once() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\edit-form-advanced.php:419
+[19-Feb-2020 16:08:31 UTC] PHP   4. header() C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-header.php:9
+[19-Feb-2020 16:14:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 11 and at least 1 expected in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\post.php:2109
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php(11): get_post_meta()
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(290): change_meta_box_titles('resturang')
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\includes\meta-boxes.php(1549): do_action('add_meta_boxes', 'resturang', Object(WP_Post))
+#5 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admi in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\post.php on line 2109
+[19-Feb-2020 16:26:42 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 13
+[19-Feb-2020 16:26:44 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\template-parts\rating.php on line 13
+[19-Feb-2020 19:20:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
+[19-Feb-2020 19:20:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
+[19-Feb-2020 19:20:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
+[19-Feb-2020 19:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
+[19-Feb-2020 19:20:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
+[19-Feb-2020 19:20:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
+[19-Feb-2020 19:20:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
+[19-Feb-2020 19:20:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_menu() on null in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php:35
+Stack trace:
+#0 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(288): remove_comments('')
+#1 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\Users\Linus\Local Sites\resturangjakt\app\public\wp-content\themes\twentytwenty child\functions.php on line 35
