@@ -16,8 +16,10 @@ get_header();
                 <img src="<?php print $image['url']?>" alt="<?php print $image['alt']?>" class="mainimg">
                 <span>
                     <?php 
-                    print"<div class='ratingAndLocation'>";
-                    print"<div class='left'>";
+                    if(get_field("map")["address"] || get_field("adressText") || get_field("hemsida") || the_field("open_hours")){
+                        print"<div class='ratingAndLocation'>";
+                        print"<div class='left'>";
+                    }
                     print"<h5>Betyg</h5>";
                     the_field("betyg_orsak");
                     $rating = get_field("rating");
@@ -50,31 +52,42 @@ get_header();
                     print"<h5>Omrösning</h5>";
 
                     get_template_part( 'template-parts/rating' );
-                    print"</div><p class='horisontalRule'><div class='right'>";
-                    print"<h5>Adress</h5>";
+                    if(get_field("map")["address"] || get_field("adressText") || get_field("hemsida") || the_field("open_hours")){
+                        print"</div>";
+                        print"<p class='horisontalRule'>";
+                        print"<div class='right'>";
+                    }
                     
                     $maptype = get_field("google_maps_eller_text");
+                    if(get_field("map")["address"] || get_field("adressText")){
+                        print"<h5>Adress</h5>";
+                    }
                     if($maptype == "google"){
+
                         print get_field("map")["address"];
                     }
                     else{
+
                         the_field("adressText");
                     }
-                    print"<hr>";
-
-                    print"<h5>Hemsidan</h5>";
+                    
                     if(get_field("hemsida")){
+                        print"<hr>";
+                        print"<h5>Hemsidan</h5>";
                         print"<a href='".get_field("hemsida")."' target='_BLANK'>";
                         the_field("hemsida");
                         print"</a>";
                     }
-                    print"<hr>";
-                    print"<h5>Öppettider</h5>";
-
-                    the_field("open_hours");
-                    print"</div>";
+                    if(the_field("open_hours")){
+                        print"<hr>";
+                        print"<h5>Öppettider</h5>";
+                        the_field("open_hours");
+                    }
+                    if(get_field("map")["address"] || get_field("adressText") || get_field("hemsida") || the_field("open_hours")){
+                            print"</div>";
+                            print"</div>";
+                        }
                     
-                    print"</div>";
                     print"<hr>";
 
                     print get_field("description");

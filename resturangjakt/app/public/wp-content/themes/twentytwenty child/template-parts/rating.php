@@ -7,15 +7,16 @@ $ammountOfComments = get_comments(array(
 $comments = get_comments(array(
     'post_id' => $post->ID,
 ));
+
+//If rating is enabled.
 if(comments_open()){
     print"<p>Har du en annan åsikt? Känn dig fri att lämna ditt egna betyg!</p>";
-
-
-$id = $post->ID;
-$ratingsTotal = 0;
-foreach ($comments as $comment) {
+    $id = $post->ID;
+    $ratingsTotal = 0;
+    foreach ($comments as $comment) {
     $ratingsTotal += $comment->comment_content;
 }
+//If noone has rated, just post the rating stars.
 if($ammountOfComments == 0){
     print"<p>";
     for ($y=0; $y < 5; $y++) { 
@@ -38,6 +39,7 @@ if($ammountOfComments == 0){
     </p>
     </form>
     <?php
+//If People has rated, print the avarage of the current ratings.
 }else if($ammountOfComments > 0 && !$_COOKIE[$id] == $post->ID){
     $rating = floor($ratingsTotal / $ammountOfComments);
     switch ($rating) {
@@ -83,6 +85,7 @@ if($ammountOfComments == 0){
     </form>
     <?php
 }
+//If you and other people has rated, print the avarage of the current ratings and a thank you message.
 else{
     $rating = floor($ratingsTotal / $ammountOfComments);
     switch ($rating) {
@@ -118,6 +121,7 @@ else{
     <?php
 }
 }
+//If rating is dissabled.
 else{
     print"<p>Omrösningen är tyvärr stängd för denna resturang!</p>";
 }

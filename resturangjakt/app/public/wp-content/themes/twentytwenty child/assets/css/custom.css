@@ -9,9 +9,9 @@ hr{
     margin: 4rem 0;
     border-right: solid 1px #dcd7ca;
 }
-/***********/
-/*StartPage*/
-/***********/
+/***************************/
+/* Start Page and all posts*/
+/***************************/
 .latest-post{
     width:100%;
     display:flex;
@@ -119,11 +119,7 @@ hr{
     margin:0 2rem;
     
 }
-@media only screen and (max-width: 800px){
-    .wrapper{
-        width:90%;
-    }
-}
+
 
 /***************/
 /* Single page */
@@ -158,6 +154,9 @@ hr{
 .left, .right{
     width:45%;
 }
+/***********/
+/* Scaling */
+/***********/
 @media only screen and (max-width: 800px){
     .single-wrap{
         width:90% !important;
@@ -167,6 +166,9 @@ hr{
     }
     .latest-post .wrapper{
         width:90% !important;
+    }
+    .wrapper{
+        width:90%;
     }
 }
 @media only screen and (max-width: 600px){
